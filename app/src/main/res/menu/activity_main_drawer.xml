@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_categorias"
+            android:icon="@drawable/ic_producto"
+            android:title="Agregar categorias" />
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/ic_producto"
+            android:title="Agregar productos" />
+
+        <item
+            android:id="@+id/nav_qproductos"
+            android:icon="@drawable/ic_consulta"
+            android:title="Agregar Producto" />
+        <item
+            android:id="@+id/nav_qcategorias"
+            android:icon="@drawable/ic_consulta"
+            android:title="Consulta categoria" />
+    </group>
+
+    <item android:title="Otros">
+        <menu>
+            <item
+                android:id="@+id/acercade"
+                android:icon="@drawable/ic_contacts"
+                android:title="Creado por"/>
+            <item
+                android:id="@+id/cerrar_seccion"
+                android:icon="@drawable/ic_cerrar"
+                android:title="Cerrar sección"/>
+
+        </menu>
+    </item>
+
+</menu>
